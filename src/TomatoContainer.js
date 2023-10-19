@@ -42,11 +42,12 @@ export default function TomatoContainer({tomatoes}) {
           <Box 
           sx={{
             bgcolor: 'firebrick',
-            minHeight: '100px',
+            minHeight: '200px',
             display: 'flex',
             flexDirection: 'row', 
             justifyContent: 'center', 
-            alignItems: 'center', // 
+            alignItems: 'center', 
+            marginTop: '20px',
           }}
            >
             <h2>
