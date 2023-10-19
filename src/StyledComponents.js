@@ -8,6 +8,7 @@ export const OrangeButton = styled(Button)(() => ({
     color: 'tomato',
     marginRight: '10px',
     fontSize: '30px',
+    border: '2px solid firebrick',
     '&:hover': {
         border: '2px solid white',
         background: '#edd9bb',
