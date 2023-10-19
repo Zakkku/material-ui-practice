@@ -5,9 +5,9 @@ import { styled } from '@mui/material/styles';
 
 export const OrangeButton = styled(Button)(() => ({
     background: '#edd9bb',
-    color: 'firebrick',
+    color: 'tomato',
     marginRight: '10px',
-    fontSize: '25px',
+    fontSize: '30px',
     '&:hover': {
         border: '2px solid white',
         background: '#edd9bb',
