@@ -3,7 +3,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
-export default function ButtonContainer({ children }) {
+export default function ButtonContainer({ children, tomatoes, setTomatoes }) {
     return (
       <React.Fragment>
         <CssBaseline />
