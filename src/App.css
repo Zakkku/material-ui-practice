@@ -1,4 +1,8 @@
 .App {
   text-align: center;
+  color: white;
 }
 
+h4 {
+  margin-top: 0;
+}

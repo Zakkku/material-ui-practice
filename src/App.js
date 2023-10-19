@@ -1,16 +1,23 @@
 import './App.css';
-import Button from '@mui/material/Button';
-import { styled } from '@mui/material/styles';
+import {OrangeButton} from './StyledComponents'
+import SimpleContainer from './OuterContainer';
+import ButtonContainer from './ButtonsContainer';
 
-const OrangeButton = styled(Button)(() => ({
-  background: 'orange'
-}));
 
 function App() {
   return (
     <div className="App">
-      <h1>This is my React app to practice MUI</h1>
-      <OrangeButton variant='contained'>Hello</OrangeButton>
+      < SimpleContainer>
+      <h1>Pomodoro Tomato Counter</h1>
+      <h4>(Made with Material UI this time)</h4>
+      <ButtonContainer>
+      <OrangeButton variant='contained'> - </OrangeButton>
+      <OrangeButton variant='contained'> + </OrangeButton>
+
+      </ButtonContainer>
+      
+      </SimpleContainer>
+      
     </div>
   );
 }
