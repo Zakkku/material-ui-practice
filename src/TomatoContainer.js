@@ -48,6 +48,7 @@ export default function TomatoContainer({tomatoes}) {
             justifyContent: 'center', 
             alignItems: 'center', 
             marginTop: '20px',
+            boxSizing: 'border-box',
           }}
            >
             <h2>
